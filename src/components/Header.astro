@@ -4,7 +4,7 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
+  activeNav?: "posts" | "tags" | "search";
 }
 
 const { activeNav } = Astro.props;
@@ -29,7 +29,7 @@ const { activeNav } = Astro.props;
         }
       </a>
       <nav id="nav-menu">
-        <button
+        <!-- <button
           class="hamburger-menu focus-outline"
           aria-label="Open Menu"
           aria-expanded="false"
@@ -53,7 +53,7 @@ const { activeNav } = Astro.props;
             <line x1="18" y1="6" x2="6" y2="18" class="close"></line>
             <line x1="6" y1="6" x2="18" y2="18" class="close"></line>
           </svg>
-        </button>
+        </button> -->
         <ul id="menu-items" class="display-none sm:flex">
           <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
@@ -65,11 +65,7 @@ const { activeNav } = Astro.props;
               Tags
             </a>
           </li>
-          <li>
-            <a href="/about/" class={activeNav === "about" ? "active" : ""}>
-              About
-            </a>
-          </li>
+
           <li>
             <LinkButton
               href="/search/"
@@ -190,25 +186,25 @@ const { activeNav } = Astro.props;
 </style>
 
 <script>
-  function toggleNav() {
-    // Toggle menu
-    const menuBtn = document.querySelector(".hamburger-menu");
-    const menuIcon = document.querySelector(".menu-icon");
-    const menuItems = document.querySelector("#menu-items");
+  // function toggleNav() {
+  //   // Toggle menu
+  //   const menuBtn = document.querySelector(".hamburger-menu");
+  //   const menuIcon = document.querySelector(".menu-icon");
+  //   const menuItems = document.querySelector("#menu-items");
 
-    menuBtn?.addEventListener("click", () => {
-      const menuExpanded = menuBtn.getAttribute("aria-expanded") === "true";
-      menuIcon?.classList.toggle("is-active");
-      menuBtn.setAttribute("aria-expanded", menuExpanded ? "false" : "true");
-      menuBtn.setAttribute(
-        "aria-label",
-        menuExpanded ? "Open Menu" : "Close Menu"
-      );
-      menuItems?.classList.toggle("display-none");
-    });
-  }
+  //   menuBtn?.addEventListener("click", () => {
+  //     const menuExpanded = menuBtn.getAttribute("aria-expanded") === "true";
+  //     menuIcon?.classList.toggle("is-active");
+  //     menuBtn.setAttribute("aria-expanded", menuExpanded ? "false" : "true");
+  //     menuBtn.setAttribute(
+  //       "aria-label",
+  //       menuExpanded ? "Open Menu" : "Close Menu"
+  //     );
+  //     menuItems?.classList.toggle("display-none");
+  //   });
+  // }
 
-  toggleNav();
+  // toggleNav();
 
   // Runs on view transitions navigation
   document.addEventListener("astro:after-swap", toggleNav);
