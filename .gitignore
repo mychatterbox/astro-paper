@@ -33,4 +33,14 @@ pnpm-debug.log*
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
-*.bak
+src/content/blog-작성중/
+.obsidian/
+package-lock.json.bak
+package.json.bak
+src/components/Header.astro.bak
+src/components/Tag.astro.bak
+src/layouts/PostDetails.astro.bak
+src/pages/404.astro.bak
+src/styles/base.css.bak
+.vite/deps/_metadata.json
+.vite/deps/package.json
