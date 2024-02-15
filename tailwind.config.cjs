@@ -14,7 +14,7 @@ module.exports = {
     // Remove the following screen breakpoint or add other breakpoints
     // if one breakpoint is not enough for you
     screens: {
-      sm: "640px",
+      sm: "384px",
     },
 
     extend: {
@@ -23,6 +23,7 @@ module.exports = {
           base: withOpacity("--color-text-base"),
           accent: withOpacity("--color-accent"),
           inverted: withOpacity("--color-fill"),
+          link: withOpacity("--color-url"),
         },
       },
       backgroundColor: {
@@ -54,8 +55,12 @@ module.exports = {
         transparent: "transparent",
       },
       fontFamily: {
-        mono: ["IBM Plex Mono", "monospace"],
+        sans: ["Pretendard Variable", "Inter", "Pretendard", "system-ui", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "sans-serif"],
       },
+      // fontFamily: {
+      //   sans: ["Noto Sans KR", "sans-serif"],
+      //   // mono: ["IBM Plex Mono", "monospace"],        
+      // },
 
       typography: {
         DEFAULT: {
