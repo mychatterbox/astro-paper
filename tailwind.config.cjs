@@ -56,13 +56,10 @@ module.exports = {
         transparent: "transparent",
       },
       fontFamily: {
-        sans: ["Pretendard Variable", "Inter", "Pretendard", "system-ui", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "sans-serif"],
+        sans: ["Pretendard Variable", "Inter", "Pretendard", "system-ui", "Apple SD Gothic Neo", "Malgun Gothic", "sans-serif"],
+        mono: ["IBM Plex Mono", "monospace"],        
       },
-      // fontFamily: {
-      //   sans: ["Noto Sans KR", "sans-serif"],
-      //   // mono: ["IBM Plex Mono", "monospace"],        
-      // },
-
+      
       typography: {
         DEFAULT: {
           css: {
