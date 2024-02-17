@@ -45,6 +45,7 @@ module.exports = {
           line: withOpacity("--color-border"),
           fill: withOpacity("--color-text-base"),
           accent: withOpacity("--color-accent"),
+          link: withOpacity("--color-link"),
         },
       },
       fill: {
