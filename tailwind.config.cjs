@@ -24,6 +24,7 @@ module.exports = {
           accent: withOpacity("--color-accent"),
           inverted: withOpacity("--color-fill"),
           link: withOpacity("--color-link"),
+          sel: withOpacity("--color-sel"),
         },
       },
       backgroundColor: {
@@ -33,6 +34,7 @@ module.exports = {
           inverted: withOpacity("--color-text-base"),
           card: withOpacity("--color-card"),
           "card-muted": withOpacity("--color-card-muted"),
+          sel: withOpacity("--color-sel"),
         },
       },
       outlineColor: {

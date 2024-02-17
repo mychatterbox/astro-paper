@@ -12,6 +12,7 @@
     --color-card-muted: 239, 216, 176;
     --color-border: 35, 35, 32;
     --color-link: 100, 150, 255;
+    --color-sel: 150, 150, 150;
     --astro-code-color-text:#f0f0f0;
     --astro-code-color-background:#232320;
     --astro-code-token-constant: #032f62;
@@ -32,6 +33,7 @@
     --color-card-muted: 138, 51, 2;
     --color-border: 240, 240, 240;
     --color-link: 138, 180, 248;
+    --color-sel: 150, 150, 150;
     --astro-code-color-text:#232320;
     --astro-code-color-background: #f0f0f0;
     --astro-code-token-string: #977cdc;
@@ -55,7 +57,7 @@
   }
   body {
     @apply flex min-h-[100svh] flex-col bg-skin-fill font-sans font-medium  text-skin-base 
-    selection:bg-skin-inverted selection:bg-opacity-60 selection:text-skin-inverted;
+    selection:bg-skin-sel/90 selection:bg-opacity-60 selection:text-skin-inverted;
     
     /* selection:bg-skin-accent selection:bg-opacity-20 selection:text-skin-inverted; */
   }
@@ -84,8 +86,7 @@
     prose-blockquote:border-opacity-20 prose-blockquote:opacity-100
     prose-figcaption:!text-skin-base prose-figcaption:opacity-70
     prose-strong:!text-skin-base
-    prose-pre:font-mono
-    
+        
     
     prose-code:rounded prose-code:bg-skin-card
     prose-code:bg-opacity-30 prose-code:p-1 prose-code:font-sans
