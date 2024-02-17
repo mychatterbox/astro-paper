@@ -8,11 +8,13 @@
     --color-fill: 240, 240, 240;
     --color-text-base: 0, 0, 0;
     --color-accent: 0, 0, 0;
-    --color-card: 35, 35, 32;
+    --color-card: 135, 135, 132;
     --color-card-muted: 239, 216, 176;
     --color-border: 35, 35, 32;
     --color-link: 100, 150, 255;
-    
+    --astro-code-color-text:#f0f0f0;
+    --astro-code-color-background:#232320;
+
   }
   html[data-theme="dark"] {
     --color-fill: 35, 35, 32;
@@ -22,7 +24,11 @@
     --color-card-muted: 138, 51, 2;
     --color-border: 240, 240, 240;
     --color-link: 138, 180, 248;
+    --astro-code-color-text:#232320;
+    --astro-code-color-background: #f0f0f0;
+
   }
+
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
     display: none;
@@ -33,7 +39,7 @@
   }
   body {
     @apply flex min-h-[100svh] flex-col bg-skin-fill font-sans text-skin-base 
-    selection:bg-skin-accent selection:bg-opacity-60 selection:text-skin-inverted;
+    selection:bg-skin-inverted selection:bg-opacity-60 selection:text-skin-inverted;
     /* selection:bg-skin-accent selection:bg-opacity-20 selection:text-skin-inverted; */
   }
   section,
@@ -62,7 +68,7 @@
     prose-strong:!text-skin-base
 
     
-    prose-code:rounded prose-code:bg-skin-card 
+    prose-code:rounded prose-code:bg-skin-card
     prose-code:bg-opacity-30 prose-code:p-1 prose-code:font-sans 
     /* prose-code:bg-opacity-100 prose-code:p-1  */
     prose-code:before:!content-none prose-code:after:!content-none
@@ -123,10 +129,12 @@
   code,
   blockquote {
     word-wrap: break-word ;
+
   }
 
   pre > code {
     white-space: pre;
+    
   }
 }
 
