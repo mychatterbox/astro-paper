@@ -56,6 +56,7 @@
   body {
     @apply flex min-h-[100svh] flex-col bg-skin-fill font-sans font-medium  text-skin-base 
     selection:bg-skin-inverted selection:bg-opacity-60 selection:text-skin-inverted;
+    
     /* selection:bg-skin-accent selection:bg-opacity-20 selection:text-skin-inverted; */
   }
   section,
@@ -65,6 +66,7 @@
   a {
     @apply outline-2 outline-offset-1 outline-skin-fill 
     focus-visible:no-underline focus-visible:outline-dashed;
+    
   }
   svg {
     @apply inline-block h-6 w-6 fill-skin-base group-hover:fill-skin-accent;
@@ -82,10 +84,11 @@
     prose-blockquote:border-opacity-20 prose-blockquote:opacity-100
     prose-figcaption:!text-skin-base prose-figcaption:opacity-70
     prose-strong:!text-skin-base
-    prose-pre:font-sans
+    prose-pre:font-mono
+    
     
     prose-code:rounded prose-code:bg-skin-card
-    prose-code:bg-opacity-30 prose-code:p-1 prose-code:font-sans 
+    prose-code:bg-opacity-30 prose-code:p-1 prose-code:font-sans
     /* prose-code:bg-opacity-100 prose-code:p-1  */
     prose-code:before:!content-none prose-code:after:!content-none
     prose-ol:!text-skin-base 
@@ -94,10 +97,11 @@
     prose-th:border-skin-line prose-td:border 
     prose-td:border-skin-line prose-img:!my-2 
     prose-img:mx-auto
-    prose-img:border-skin-line prose-hr:!border-skin-line;
+    prose-img:border-skin-line prose-hr:!border-skin-line
+    
   }
   .prose a {
-    @apply break-words hover:!text-skin-link;
+    @apply break-words hover:!text-skin-link ;
   }
   .prose thead th:first-child,
   tbody td:first-child,
