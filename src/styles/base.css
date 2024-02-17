@@ -63,7 +63,7 @@
 
     
     prose-code:rounded prose-code:bg-skin-card 
-    prose-code:bg-opacity-20 prose-code:p-1 prose-code:font-sans 
+    prose-code:bg-opacity-30 prose-code:p-1 prose-code:font-sans 
     /* prose-code:bg-opacity-100 prose-code:p-1  */
     prose-code:before:!content-none prose-code:after:!content-none
     prose-ol:!text-skin-base 
@@ -122,7 +122,7 @@
 
   code,
   blockquote {
-    word-wrap: break-word;
+    word-wrap: break-word ;
   }
 
   pre > code {
