@@ -36,10 +36,10 @@ keywords:
 5. 윈도우 시작 시 미리 폴더를 만드는 코드를 적절하게 수정 후 추가하고 저장합니다.
 
    ```
-       timeout  /t 3
-       mkdir r:\Chrome\Cache
-       mkdir r:\Chromium\Cache
-       mkdir r:\Temp
+   timeout  /t 3
+   mkdir r:\Chrome\Cache
+   mkdir r:\Chromium\Cache
+   mkdir r:\Temp
    ```
 
 6. 이제 osfmount.bat 파일을 작업 스케줄러에 아래와 같이 혹은 각자의 방법으로 등록합니다.<br>
