@@ -14,7 +14,15 @@
     --color-link: 100, 150, 255;
     --astro-code-color-text:#f0f0f0;
     --astro-code-color-background:#232320;
-
+    --astro-code-token-constant: #032f62;
+    --astro-code-token-string: #032f62;
+    --astro-code-token-comment: #6a737d;
+    --astro-code-token-keyword: #d73a49;
+    --astro-code-token-parameter: #24292e;
+    --astro-code-token-function: #6f42c1;
+    --astro-code-token-string-expression: #c64640;
+    --astro-code-token-punctuation: #ffffff;
+    --astro-code-token-link: #977cdc;
   }
   html[data-theme="dark"] {
     --color-fill: 35, 35, 32;
@@ -26,6 +34,14 @@
     --color-link: 138, 180, 248;
     --astro-code-color-text:#232320;
     --astro-code-color-background: #f0f0f0;
+    --astro-code-token-string: #977cdc;
+    --astro-code-token-comment: #757575;
+    --astro-code-token-keyword: #d73a49;
+    --astro-code-token-parameter: #ffffff;
+    --astro-code-token-function: #86d9ca;
+    --astro-code-token-string-expression: #c64640;
+    --astro-code-token-punctuation: #ffffff;
+    --astro-code-token-link: #977cdc;
 
   }
 
@@ -66,7 +82,7 @@
     prose-blockquote:border-opacity-20 prose-blockquote:opacity-100
     prose-figcaption:!text-skin-base prose-figcaption:opacity-70
     prose-strong:!text-skin-base
-
+    prose-pre:font-sans
     
     prose-code:rounded prose-code:bg-skin-card
     prose-code:bg-opacity-30 prose-code:p-1 prose-code:font-sans 
@@ -134,7 +150,7 @@
 
   pre > code {
     white-space: pre;
-    
+
   }
 }
 
