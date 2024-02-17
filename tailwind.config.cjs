@@ -23,7 +23,7 @@ module.exports = {
           base: withOpacity("--color-text-base"),
           accent: withOpacity("--color-accent"),
           inverted: withOpacity("--color-fill"),
-          link: withOpacity("--color-url"),
+          link: withOpacity("--color-link"),
         },
       },
       backgroundColor: {
