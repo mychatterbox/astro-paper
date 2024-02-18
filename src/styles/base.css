@@ -10,7 +10,8 @@
     --color-accent: 0, 0, 0;
     --color-card: 135, 135, 132;
     --color-card-muted: 239, 216, 176;
-    --color-border: 35, 35, 32;
+    --color-line: 240, 240, 240;
+    --color-hr: 35, 35, 32;
     --color-link: 100, 150, 255;
     --color-sel: 150, 150, 150;
     --astro-code-color-text:#f0f0f0;
@@ -31,7 +32,8 @@
     --color-accent: 240, 240, 240;
     --color-card: 200, 200, 200;
     --color-card-muted: 138, 51, 2;
-    --color-border: 240, 240, 240;
+    --color-line: 35, 35, 35;
+    --color-hr: 240, 240, 240;
     --color-link: 138, 180, 248;
     --color-sel: 150, 150, 150;
     --astro-code-color-text:#232320;

@@ -44,10 +44,11 @@ module.exports = {
       },
       borderColor: {
         skin: {
-          line: withOpacity("--color-border"),
+          line: withOpacity("--color-line"),
           fill: withOpacity("--color-text-base"),
           accent: withOpacity("--color-accent"),
           link: withOpacity("--color-link"),
+          hr: withOpacity("--color-hr"),
         },
       },
       fill: {
