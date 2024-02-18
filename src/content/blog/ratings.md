@@ -16,5 +16,7 @@ canonicalURL: https://example.org/my-article-was-already-posted-here
 ---
 
 
-![image.jpg1](https://image.tmdb.org/t/p/w342/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg) <center>기생충 (2019)![9](../../../public/assets/9.png)</center> |![image.jpg2](https://image.tmdb.org/t/p/w342/zVMyvNowgbsBAL6O6esWfRpAcOb.jpg) <center>황야 (2024)![6](../../../public/assets/6.png)</center>
+![기생충](https://image.tmdb.org/t/p/w342/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg) <center>기생충 (2019)![100](../../assets/images/9.png)<center>| ![Midnight Peepshow](https://image.tmdb.org/t/p/w342/vm2wuccxwuK6qnhLzlWz2gSGnfx.jpg.jpg)<center>Midnight Peepshow (2022)![100](../../assets/images/6.png)</center>
 --- | --- | 
+
+
