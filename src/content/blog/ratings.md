@@ -16,7 +16,15 @@ canonicalURL: https://example.org/my-article-was-already-posted-here
 ---
 
 
-![기생충](https://image.tmdb.org/t/p/w342/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg) <center>기생충 (2019)![100](../../assets/images/9.png)<center>| ![Midnight Peepshow](https://image.tmdb.org/t/p/w342/vm2wuccxwuK6qnhLzlWz2gSGnfx.jpg.jpg)<center>Midnight Peepshow (2022)![100](../../assets/images/6.png)</center>
+[![기생충](https://image.tmdb.org/t/p/w342/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg)](https://www.themoviedb.org/movie/496243)![100](../../assets/images/9.png) | [![Midnight Peepshow](https://image.tmdb.org/t/p/w342/vm2wuccxwuK6qnhLzlWz2gSGnfx.jpg.jpg)](https://www.themoviedb.org/movie/1002226)![100](../../assets/images/6.png)
 --- | --- | 
+
+[![All Jacked Up and Full of Worms](https://image.tmdb.org/t/p/w342/enkUbQPiXvNkjkdiUG6tNjSXHX5.jpg)](https://www.themoviedb.org/movie/996658)![100](../../assets/images/4.png) | [![Moartea domnului Lăzărescu](https://image.tmdb.org/t/p/w342/3AUpoPT3y4SjzAJRTdXEwDbS0FA.jpg.jpg)](https://www.themoviedb.org/movie/31032)![100](../../assets/images/8.png) 
+--- | --- | 
+
+
+
+
+
 
 
