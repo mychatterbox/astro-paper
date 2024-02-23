@@ -86,7 +86,7 @@
     prose-a:!text-skin-link prose-a:!decoration-dotted prose-a:underline-offset-4 
     hover:prose-a:text-skin-accent prose-blockquote:!border-l-skin-accent  
     prose-blockquote:border-opacity-20 prose-blockquote:opacity-100
-    prose-figcaption:!text-skin-base prose-figcaption:opacity-70
+    prose-figcaption:text-center prose-figcaption:!text-skin-link prose-figcaption:opacity-100 
     prose-strong:!text-skin-base
         
     
@@ -100,7 +100,7 @@
     prose-th:border-skin-line prose-td:border 
     prose-td:border-skin-line prose-img:!my-2 
     prose-img:mx-auto
-    prose-img:border-skin-line prose-hr:!border-skin-line
+    prose-img:border-skin-line prose-hr:!border-skin-hr
     
   }
   .prose a {
@@ -146,7 +146,7 @@
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    @apply bg-skin-card-muted;
+    @apply bg-skin-card/70;
   }
 
   code,
