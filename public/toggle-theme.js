@@ -64,7 +64,8 @@ window.onload = () => {
   setThemeFeature();
 
   // Runs on view transitions navigation
-  document.addEventListener("astro:after-swap", setThemeFeature);
+  document.addEventListener("astro:page-load", setThemeFeature);
+  // document.addEventListener("astro:after-swap", setThemeFeature);
 };
 
 // sync with system changes
